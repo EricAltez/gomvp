@@ -1,4 +1,3 @@
-
 class User {
   final int id;
   final String name;
@@ -15,7 +14,7 @@ class User {
 
   factory User.fromJson(Map&lt;String, dynamic> json) {
     return User(
-      id: json.['id'],
+      id: json['id'],
       name: json['name'],
       email: json['email'],
       points: json['points']
